@@ -1,0 +1,77 @@
+body { 
+  background: url("s.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    font-family:arial;
+	font-size:20px;
+	line-height:1.6em;
+
+}
+title{
+    font-family: monospace;
+    color: brown;
+    
+}
+
+.container{
+	width:60%;
+	margin:0 auto;
+	overflow:auto;
+    
+}
+.start{
+	display:inline-block;
+	color:green;
+	background:#d5f4e6;
+	border:1px dotted #ccc;
+	padding:6px 13px;
+}
+li{
+	list-style:none;
+}
+
+a{
+	text-decoration:none;
+}
+
+label{
+	display:inline-block;
+	width:180px;
+}
+
+
+header{
+	border-bottom:3px #FFDAB9 solid;
+}
+
+footer{
+	border-top:3px #d5f4e6 solid;
+	text-align:center;
+	padding-top:5px;
+}
+
+main{
+	padding-bottom:20px;
+}
+
+.question{
+    background-color: bisque;
+    font-family: cursive;
+    width: inherit;   
+}
+.button{
+    border-radius: 50%;
+    font-family: cursive;
+      background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+   
+}
+
+.current{
+    font-family: monospace;
+    color:brown;
+    font-size: 25px;
+    }
